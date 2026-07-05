@@ -3,19 +3,29 @@
 ## Programación Web
 ### Verano 2026
 
+**INSTITUTO TECNOLÓGICO NACIONAL DE MÉXICO** 
+**INSTITUTO TECNOLÓGICO DE OAXACA**
+
+
 **Docente:** Mtra. Adelina Martinez Nieto
 
 **Alumno:** Melody Nathalie Mendoza Jimenez 23161034
 
+**Grupo:** 7SC
+
+---
+# Objetivo
+
+Desarrollar una librería en JavaScript que permita reutilizar funciones de validación dentro de un formulario de registro y un inicio de sesión, aplicando buenas prácticas de organización del código y facilitando su uso en diferentes páginas del proyecto.
 ---
 
 # Descripción
 
-Este proyecto consiste en el desarrollo de una librería en JavaScript llamada **utileria.js**, la cual reúne diferentes funciones que permiten validar y procesar información ingresada por el usuario.
+En esta actividad se desarrolló una librería en JavaScript llamada **utileria.js**, la cual fue integrada en un formulario de registro y una página de inicio de sesión.
 
-La librería fue integrada en un formulario de registro y en un inicio de sesión, reutilizando las mismas funciones de validación en ambas páginas.
+El objetivo del proyecto fue aplicar funciones reutilizables para validar la información ingresada por el usuario, evitando datos incorrectos antes de completar un registro o permitir el acceso al sistema.
 
-Como complemento se desarrolló una ventana modal para mostrar la información del registro y un diseño adaptable (Responsive Design), permitiendo visualizar correctamente el proyecto tanto en computadoras como en dispositivos móviles.
+Además del uso de la librería, se implementó una ventana modal para mostrar los resultados del registro, un diseño responsive para distintos dispositivos y una estructura organizada del proyecto utilizando HTML, CSS y JavaScript.
 
 ---
 
@@ -46,14 +56,25 @@ La librería **utileria.js** permite validar estos datos antes de procesarlos, e
 
 # Instalación
 
-Agregar la librería dentro del documento HTML.
+Para utilizar la librería es necesario descargar o clonar el repositorio y conservar la estructura de carpetas del proyecto.
+
+Posteriormente, se debe agregar el archivo **utileria.js** dentro del documento HTML antes del archivo JavaScript donde será utilizada.
 
 ```html
 <script src="js/utileria.js"></script>
 ```
 
-Posteriormente se pueden utilizar cualquiera de las funciones desde cualquier archivo JavaScript.
+Una vez importada la librería, cualquiera de sus funciones puede utilizarse desde otros archivos JavaScript del proyecto.
 
+Por ejemplo:
+
+```javascript
+if(validarCorreo(correo)){
+    console.log("Correo válido");
+}
+```
+
+En este proyecto la librería fue utilizada tanto en el formulario de registro (**index.html**) como en el inicio de sesión (**login.html**).
 ---
 
 # Estructura del proyecto
@@ -343,27 +364,17 @@ Captura de la consola:
 
 # Video demostrativo
 
-Video de funcionamiento del proyecto:
+El funcionamiento completo del proyecto puede visualizarse en el siguiente video:
 
-**YouTube:**
-
-
-En el video se muestra:
-
-- Presentación de la librería.
-- Problema que resuelve.
-- Funcionamiento del formulario.
-- Funcionamiento del modal.
-- Funcionamiento del login.
-- Ejemplos de validación.
-- Resultados obtenidos.
-
----
+https://youtu.be/AD0ASH3gv8Y?si=W9d8LzMlmcgmmWom
+----
 
 # Conclusión
 
-La elaboración de esta actividad permitió reforzar el uso de JavaScript mediante el desarrollo de una librería reutilizable para validar información en formularios.
+El desarrollo de esta actividad permitió poner en práctica los conocimientos adquiridos durante el curso sobre HTML, CSS y JavaScript mediante la creación de una librería reutilizable para validar información.
 
-Durante el proyecto se aplicaron conocimientos relacionados con funciones, expresiones regulares, manipulación del DOM, validación de datos, ventanas modales y diseño responsive.
+Durante el proyecto se trabajó con funciones, validaciones, expresiones regulares, manipulación del DOM, ventanas modales y diseño responsive, integrando todos estos elementos en un formulario de registro y un inicio de sesión.
 
-La reutilización de las funciones tanto en el formulario de registro como en el inicio de sesión demuestra la utilidad de organizar el código dentro de una librería, facilitando su mantenimiento y permitiendo emplearlo en diferentes páginas sin necesidad de repetir lógica.
+Una de las principales ventajas de utilizar una librería es que las funciones pueden reutilizarse en diferentes páginas sin necesidad de escribir nuevamente el mismo código, facilitando la organización del proyecto y haciendo que su mantenimiento sea más sencillo.
+
+Esta actividad permitió comprender la importancia de separar la lógica de validación del resto del programa y desarrollar una solución más ordenada, reutilizable y fácil de implementar en futuros proyectos.
