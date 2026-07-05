@@ -8,7 +8,7 @@
 
 **Docente:** Mtra. Adelina Martinez Nieto
 
-**Alumno:** Mendoza Jimenez Melody Nathalie23161034
+**Alumna:** Mendoza Jimenez Melody Nathalie23161034
 
 **Grupo:** 7SC
 
