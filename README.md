@@ -275,7 +275,9 @@ Si ambas validaciones son correctas se muestra un mensaje de bienvenida al usuar
 
 Vista principal del formulario donde el usuario ingresa toda su información antes de realizar el registro.
 
-![Formulario de registro](img/formulario.png)
+<p align="center">
+  <img src="img/formulario.png" width="450">
+</p>
 
 ---
 
@@ -283,7 +285,9 @@ Vista principal del formulario donde el usuario ingresa toda su información ant
 
 Ejemplo de la validación cuando el nombre contiene caracteres no permitidos.
 
-![Error en nombre](img/error_nombre.png)
+<p align="center">
+  <img src="img/error_nombre.png" width="450">
+</p>
 
 ---
 
@@ -291,7 +295,9 @@ Ejemplo de la validación cuando el nombre contiene caracteres no permitidos.
 
 Ejemplo de la validación cuando el correo electrónico no tiene un formato correcto.
 
-![Error en correo](img/error_correo.png)
+<p align="center">
+  <img src="img/error_correo.png" width="450">
+</p>
 
 ---
 
@@ -299,7 +305,9 @@ Ejemplo de la validación cuando el correo electrónico no tiene un formato corr
 
 Ejemplo cuando el número telefónico no cumple con la longitud requerida.
 
-![Error en teléfono](img/error_numero.png)
+<p align="center">
+  <img src="img/error_numero.png" width="450">
+</p>
 
 ---
 
@@ -307,7 +315,9 @@ Ejemplo cuando el número telefónico no cumple con la longitud requerida.
 
 Ejemplo cuando la contraseña no cumple con las reglas establecidas por la librería.
 
-![Error en contraseña](img/error_contra.png)
+<p align="center">
+  <img src="img/error_contra.png" width="450">
+</p>
 
 ---
 
@@ -315,7 +325,9 @@ Ejemplo cuando la contraseña no cumple con las reglas establecidas por la libre
 
 Resultado mostrado después de completar correctamente el formulario de registro.
 
-![Modal](img/modal.png)
+<p align="center">
+  <img src="img/modal.png" width="450">
+</p>
 
 ---
 
@@ -323,7 +335,9 @@ Resultado mostrado después de completar correctamente el formulario de registro
 
 Pantalla donde el usuario ingresa su correo electrónico y contraseña.
 
-![Login](img/login.png)
+<p align="center">
+  <img src="img/login.png" width="450">
+</p>
 
 ---
 
@@ -331,7 +345,9 @@ Pantalla donde el usuario ingresa su correo electrónico y contraseña.
 
 Mensaje mostrado cuando el usuario inicia sesión correctamente después de validar sus datos.
 
-![Login correcto](img/logingcorrecto.png)
+<p align="center">
+  <img src="img/logincorrecto.png" width="450">
+</p>
 
 ---
 
@@ -357,8 +373,9 @@ else{
 
 Captura de la consola:
 
-![Consola](img/logs.png)
-
+<p align="center">
+  <img src="img/logs.png" width="450">
+</p>
 ---
 
 
