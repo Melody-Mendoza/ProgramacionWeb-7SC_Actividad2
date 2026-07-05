@@ -3,9 +3,8 @@
 ## Programación Web
 ### Verano 2026
 
-**INSTITUTO TECNOLÓGICO NACIONAL DE MÉXICO** 
 **INSTITUTO TECNOLÓGICO DE OAXACA**
-
+---
 
 **Docente:** Mtra. Adelina Martinez Nieto
 
@@ -13,10 +12,15 @@
 
 **Grupo:** 7SC
 
+**Carrera:** Ingeniería en Sistemas Computacionales
+
+**Actividad:** Actividad 2. Librería **utileria.js**
+
 ---
 # Objetivo
 
 Desarrollar una librería en JavaScript que permita reutilizar funciones de validación dentro de un formulario de registro y un inicio de sesión, aplicando buenas prácticas de organización del código y facilitando su uso en diferentes páginas del proyecto.
+
 ---
 
 # Descripción
@@ -75,6 +79,7 @@ if(validarCorreo(correo)){
 ```
 
 En este proyecto la librería fue utilizada tanto en el formulario de registro (**index.html**) como en el inicio de sesión (**login.html**).
+
 ---
 
 # Estructura del proyecto
@@ -384,6 +389,7 @@ Captura de la consola:
 El funcionamiento completo del proyecto puede visualizarse en el siguiente video:
 
 https://youtu.be/AD0ASH3gv8Y?si=W9d8LzMlmcgmmWom
+
 ----
 
 # Conclusión
